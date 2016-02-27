@@ -1,0 +1,28 @@
+﻿/* Style About Us */ 
+
+table{
+    box-sizing: border-box;
+    width:960px;
+    padding: 20px;
+    border-color:gold;
+    border-style:solid;
+}
+
+table td{
+    box-sizing:border-box;
+    text-align: justify;
+    vertical-align: middle;
+}
+
+.empty-col {
+    width:50px;
+}
+
+.empty-row {
+    height:30px;
+}
+
+td img{
+    height: 230px;
+    width:400px;
+}

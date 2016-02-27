@@ -1,0 +1,62 @@
+﻿#site {
+	max-width: 960px;
+	margin: 0 auto;
+}
+li img{
+    width:250px;
+    height:200px;
+
+}
+
+ul{
+    padding:0;
+}
+li {
+    display:inline-block;
+}
+
+input{
+    border:1px thin;
+}
+
+.empty-li{
+    width:50px;
+}
+
+
+.large-empty-li{
+    width:250px;
+}
+
+.btn, a.btn {
+	display: inline-block;
+    background-color: #DF7E00;
+	color: #fff;
+	padding: 0.3em 1em;
+	font: 1em 'Khula', sans-serif;
+
+	text-align: center;
+}
+
+.product-name {
+    font-size: 20px;
+    color: #f0ae00;
+    margin: 0;
+    padding: 0; 
+    
+}
+
+.product-name:hover {
+   color: black;
+   font-weight:bold;
+   text-decoration:none;
+   font-size: 17px;
+    cursor:pointer;   
+}
+
+#product_number {
+    text-align:center;
+    color:lightgray;
+    font-size: 10px;
+
+}

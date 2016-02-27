@@ -1,0 +1,201 @@
+﻿/* Style Company Products */ 
+#ContentPlaceHolder1{
+    height:auto;
+}
+table {
+    width: 500px;
+}
+
+#Product_Company_Catalogue {
+    width: 960px;
+    height: auto;
+    position: center;
+    
+}
+
+
+#pdc_img_1 {
+    width: 270px;
+    height: 200px;
+    float: left;
+    margin: 15px;
+    margin-left:30px;   
+ }
+ 
+ #pdc_img_2 {
+    width: 270px;
+    height: 200px;
+    float: left;
+    margin: 15px;
+    margin-left:30px;   
+ }
+ 
+ #pdc_img_3 {
+    width: 270px;
+    height: 200px;
+    float: left;
+    margin: 15px;
+    margin-left:30px;   
+    
+ }
+ 
+ #pdc_img_4 {
+    width: 270px;
+    height: 200px;
+    float: left;
+    margin: 15px;
+    margin-left:30px;      
+ }
+ 
+ #pdc_img_5 {
+    width: 270px;
+    height: 200px;
+    float: left;
+    margin: 15px;
+    margin-left:30px;   
+ }
+ 
+ tr {
+      text-align: center; 
+}
+
+
+
+.links_products {
+    
+    color: black;
+    text-decoration:none;
+ }
+
+.links_products:active {
+    color: darkgray;
+    text-decoration:none;
+}
+.links_products:visited {
+    
+    color: black;
+    text-decoration:none;
+ }
+.links_products:hover {
+   color: black;
+   font-weight:bold;
+   text-decoration:none;
+}
+
+.links_products:hover> h4 {
+   color: black;
+   font-weight:bold;
+   text-decoration:none;
+   font-size: 17px;
+}
+h4 {
+    font-size: 15px;
+    color: #f0ae00;
+    margin: 0;
+    padding: 0; 
+    
+}
+
+ /* Style Company Single Products */ 
+
+
+
+.Product_Company_Images{
+    width: 400px;
+    height: auto;
+    float: left;
+    margin: 40px;
+    position: relative;
+    
+
+}
+
+h2 {text-align:left;
+    font-weight: bold;
+  
+}
+
+
+#product_number {
+    text-align:justify;
+    color:lightgray;
+    font-size: 10px;
+
+}
+#quantity>p {
+    text-align:justify;
+    color:lightgray;
+    font-size: 10px;
+    
+}
+#price{
+    text-align:justify;
+    font-size: 20px;
+    
+}
+
+
+
+.btn{   
+    background-color: #DF7E00;
+    border-width: 0;
+    border-color: #DF7E00;
+    border-radius: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 150px;
+    padding-left: 150px;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+ 
+#quantity{
+    text-align: justify;
+    font-size: 15px;
+    color:lightgray;
+   
+}
+
+.product-description {
+     width: 960px;
+     height:1000px;
+     text-align:justify;
+     float: inherit;
+     position:center;
+     
+     height:auto;
+     
+    
+     
+}
+.product_features {
+    text-align:justify;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-width: 1px 0;
+    margin: 50px;
+                   
+}
+.return_fund_policy  {
+    text-align:justify;
+    margin: 50px;
+    height: auto;
+}
+
+
+
+.product_features> li  {
+    text-align:justify;
+    display: list-item;
+    
+     
+}
+
+ 
+
+    
+
+       
+     

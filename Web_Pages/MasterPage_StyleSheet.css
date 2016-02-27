@@ -1,0 +1,181 @@
+﻿/* Style MasterPage */ 
+
+body, html{
+
+   font-family: 'Khula', sans-serif;
+}
+
+
+body {
+    max-width: 960px;
+    margin:0 auto;
+    height: auto;
+    padding-bottom: 1px;
+    display: block;
+    text-align:center;
+    margin: auto;
+    box-sizing: border-box;
+
+}
+
+#logo { height: 100px;
+    width: 280px;
+    float:left;
+       
+}
+
+
+#shopping_logo { height: 40px;
+    width: 60px;
+    float:right;
+    margin-top:55px;
+    margin-right: 10px;       
+}
+
+#login_registration{
+    height: 30px;
+    width: 120px;
+    font-weight: bold;
+    float:left;
+    margin-top:55px;
+    margin-left: 460px;
+    color:#f0ae00;
+    text-decoration: none;
+}
+
+#login_registration:visited{
+    color:#f0ae00;
+    text-decoration: none;
+}
+#login_registration:active {
+    color: dimgrey;
+}
+
+#login_registration:hover {
+   color: black;
+}    
+
+ul, li {
+    list-style-type: none;
+}
+
+
+#navigation_bar {
+    clear: left;
+    background-color: #1f1f1f;
+    width:960px;
+    text-align: left;
+    font-size: 20px;
+        
+   margin-top:20px;
+}
+
+#navigation_bar  ul {
+        
+    margin: 10px;
+    padding: 10px;
+    text-align: left;   
+          
+}
+
+#navigation_bar ul li {
+    margin: 0;
+    padding: 10px;
+    display: inline;
+    text-decoration: none;
+    padding-left:25px;
+          
+ }
+
+#navigation_bar ul a:link {
+    margin: 0;
+    padding: 10px;
+    font-size: medium;
+    color:white;
+    text-decoration:none;
+}
+
+
+a:visited {
+    
+    color: white;
+ }
+
+a:active {
+    color: dimgrey;
+}
+
+a:hover {
+   color: dimgrey;
+}
+
+#footer{ 
+    font-size: 30px;
+    width: 960px;
+    left: 0px;
+    height: 300px;
+    top: 968px;
+    background-color: #1f1f1f;
+    color: white;
+    position: center;
+    clear: inherit;
+}
+
+h3{
+    font-size: 25px;
+    color: #f0ae00;
+    
+}
+#About_us{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right:100px;
+    padding:10px;
+    font-size: 15px;
+    float: left;
+    text-align:left;
+    width: 280px;
+    text-align: justify;
+}
+
+#Our_Services{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right:100px;
+    
+    padding:10px;
+    font-size: 15px;
+    float: left;
+    text-align:left;
+}
+
+#Contact_us{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 0px;  
+    padding:10px;
+    font-size: 15px;
+    float: left;
+    text-align:left;
+}
+
+
+#Our_Services a:link {
+    margin: 0px;
+    padding: 0px;
+    font-weight: lighter;
+    font-size: 20px;
+    color:white;
+   
+    
+    text-decoration:none;
+    text-align: center;
+}
+
+
+
+#Copyright { font-size:10px;
+    
+}

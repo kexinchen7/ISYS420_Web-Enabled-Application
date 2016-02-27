@@ -1,0 +1,98 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="Web_Pages_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>  Copy Plus </title>
+    <meta charset="utf-8" />
+   
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link href="MasterPage_StyleSheet.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Khula:400,300' rel='stylesheet' type='text/css' />
+    <link rel="icon" href="../Images/Master_Page/Favicon.jpg" />
+    
+</head>
+
+<body>
+
+        <div id="head_section">
+            <a  href="http://isys420project03.azurewebsites.net/Web_Pages/Default.aspx"><img id="logo" src="/Images/Master_Page/logo_CopyPlus2.jpg" alt="CopyPlus" /> </a>
+            <a id="login_registration" href="http://isys420project03.azurewebsites.net/Web_Pages/Customer_Account.aspx"> Sign In/Sign Up </a>
+            <a href="http://isys420project03.azurewebsites.net/Web_Pages/ShoppingCart.aspx">
+                <img id="shopping_logo" src="/Images/Master_Page/Shopping_Logo.jpg" alt="Shopping Bag" />
+            </a>
+           
+        </div>
+
+        <div id="navigation_bar">
+            <ul>
+                <li><a href="http://isys420project03.azurewebsites.net/Web_Pages/Default.aspx">Home</a></li>
+                <li><a href="http://isys420project03.azurewebsites.net/Web_Pages/University/Products_University.aspx">University </a></li>
+                <li><a href="http://isys420project03.azurewebsites.net/Web_Pages/Company/Products_Company.aspx">Company</a></li>
+                <li><a href="http://isys420project03.azurewebsites.net/Web_Pages/Individual/Products_Individual.aspx">Individual</a></li>
+                <li><a href="http://isys420project03.azurewebsites.net/Web_Pages/About_Us.aspx">About us</a></li>
+                <li><a href="http://isys420project03.azurewebsites.net/Web_Pages/Contact_Us.aspx">Contact us </a></li>
+            
+              
+            </ul>
+    </div>
+
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+          <div id="footer" class="footer">
+                
+                
+           <div id="About_us">
+                <h3>About Us</h3>
+                <p>  CopyPlus opened in November 1988,  
+                    when three Texas A&M students decided 
+                    that the students, faculty and staff 
+                    needed a better solution for their 
+                    copying and duplicating needs.
+                     We now employ close to 50 people, 
+                    and have a satellite location at 
+                    the MSC on campus. </p>
+               
+              
+            </div>
+
+            <div id="Our_Services">
+                <h3>Our services </h3>
+                <p> <a href="http://isys420project03.azurewebsites.net/Web_Pages/University/Products_University.aspx"> > University  </a> <br/>
+                <a href="http://isys420project03.azurewebsites.net/Web_Pages/University/Products_University.aspx"> > Company  </a>  <br/> 
+                <a href="http://isys420project03.azurewebsites.net/Web_Pages/Individual/Products_Individual.aspx"> > Individual  </a></p>
+                
+                </br> </br>
+                <div id ="Copyright"> © 2015 by Kexin & Victoire </div>
+            </div> 
+             
+             
+             
+         
+              
+            <div id="Contact_us">
+                 <h3>Contact Us</h3>
+                 <p>
+                 (979) 676-COPY (1111) - Texas Ave <br />
+                 (979) 676-COPY (2222) - MSC
+                 </p>
+                 
+                 <div id ="Social_medias">
+                 <a href="https://www.facebook.com/CopyCorner/"><img src="/Images/Master_Page/Facebook.png"/></a>
+                 <a href="https://twitter.com/copycorner"> <img src="/Images/Master_Page/Twitter.png"/></a>
+                 <a href="https://instagram.com/"><img src="/Images/Master_Page/Instagram.png"/></a>
+
+                   
+                          
+         </div>
+           
+         
+
+</body>
+</html>

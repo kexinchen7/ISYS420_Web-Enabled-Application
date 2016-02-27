@@ -1,0 +1,55 @@
+﻿body{
+
+
+}
+
+#Log_in {
+    text-align:left;
+    margin-left: 150px;
+    margin-right: 150px;
+
+    }
+
+#registration_form{
+    text-align:left;
+    margin-left: 150px;
+    margin-right: 150px;
+
+    }
+h1{
+    text-align:center;
+
+
+}
+
+.s_buttons{   
+    background-color: #DF7E00;
+    border-width: 0;
+    border-color: #DF7E00;
+    border-radius: 0;
+    height: 40px;
+    width: 300px;
+    color: #FFFFFF;
+    cursor: pointer;
+    position:center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-weight:bold;
+    display:inline-block;
+    text-decoration:none;
+    font-size: 20px;
+    display: block; 
+    margin: 0 auto;
+    }
+
+}
+.s_buttons:hover {
+	background-color:#ffdb24;
+}
+.s_buttons:active {
+	position:relative;
+	
+}
+
